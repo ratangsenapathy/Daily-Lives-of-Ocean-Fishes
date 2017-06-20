@@ -20,8 +20,8 @@ public class FishGenerator : MonoBehaviour {
 		int noOfFishes = Random.Range (1, 2);
 		for (int i = 0; i < noOfFishes; i++) {
 			int randomFish = Random.Range (0, 4);
-			float spawnPointX = Random.Range (0.0f, 1.0f);
-			float spawnPointY = Random.Range (0.0f, 0.6f);
+			float spawnPointX = Random.Range (0, 2) == 1 ? -0.1f : 1.1f;;
+			float spawnPointY = Random.Range (0.05f, 0.6f);
 
 			Vector3 spawnPoint = new Vector3 (spawnPointX,spawnPointY,0.0f);
 			spawnPoint = Camera.main.ViewportToWorldPoint (spawnPoint);
