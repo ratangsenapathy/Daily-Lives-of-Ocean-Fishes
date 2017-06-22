@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212942150676202734}
   - component: {fileID: 114817592271268568}
   - component: {fileID: 50377468913662968}
+  - component: {fileID: 58007332401092080}
   m_Layer: 0
   m_Name: orange-fish
   m_TagString: Untagged
@@ -62,6 +63,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!58 &58007332401092080
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1460961982153658}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.27
 --- !u!114 &114817592271268568
 MonoBehaviour:
   m_ObjectHideFlags: 1

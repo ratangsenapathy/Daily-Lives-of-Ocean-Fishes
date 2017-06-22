@@ -1,10 +1,18 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FishController.cs">
     <Files>
-      <File FileName="Assets/Scripts/FishController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/FishGenerator.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/FishController.cs" Line="35" Column="28" />
+      <File FileName="Assets/Scripts/FishGenerator.cs" Line="35" Column="1" />
       <File FileName="Assets/Scripts/BackroundFill.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/HookController.cs" Line="16" Column="17" />
+      <File FileName="Assets/Scripts/MouseController.cs" Line="12" Column="30" />
+      <File FileName="Assets/Scripts/TargetSelector.cs" Line="5" Column="1" />
+      <File FileName="Assets/Scripts/ScoreManager.cs" Line="13" Column="37" />
+      <File FileName="Assets/Scripts/FishCounter.cs" Line="22" Column="67" />
+      <File FileName="Assets/Scripts/MainMenuController.cs" Line="15" Column="40" />
+      <File FileName="Assets/Scripts/GameOverController.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/InstructionController.cs" Line="12" Column="42" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
