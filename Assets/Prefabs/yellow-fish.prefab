@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212451600897045826}
   - component: {fileID: 114227189416832070}
   - component: {fileID: 50625577381262410}
+  - component: {fileID: 70848730483810488}
   m_Layer: 0
   m_Name: yellow-fish
   m_TagString: Untagged
@@ -62,6 +63,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!70 &70848730483810488
+CapsuleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1716177680937942}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 3.06, y: 1.4899999}
+  m_Direction: 1
 --- !u!114 &114227189416832070
 MonoBehaviour:
   m_ObjectHideFlags: 1

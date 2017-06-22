@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212660492324344686}
   - component: {fileID: 114404772226002178}
   - component: {fileID: 50397042711004528}
+  - component: {fileID: 58433223305578210}
   m_Layer: 0
   m_Name: blue-fish
   m_TagString: Untagged
@@ -62,6 +63,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!58 &58433223305578210
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1283711649519170}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 5.19
 --- !u!114 &114404772226002178
 MonoBehaviour:
   m_ObjectHideFlags: 1
